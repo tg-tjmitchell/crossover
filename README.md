@@ -9,7 +9,7 @@ umm grant Terminal Full Disk Access. System Settings > Privacy & Security > Full
 uh open the terminal (cmd + space, type in terminal, and press the one that literally says "Terminal")
 
 then just run:
-`curl -fsSL https://raw.githubusercontent.com/everythinginitsrightplace/crossover/main/patch.sh | bash`
+`curl -fsSL https://raw.githubusercontent.com/tg-tjmitchell/crossover/main/patch.sh | bash`
 
 then open /Applications/CrossOver.app, should all be good, i hope :p
 
@@ -21,4 +21,4 @@ uhh i'll make an uninstaller sometime when i can remember to
 
 to codeweavers: dont charge so much for reskinned wine and this wouldnt happen
 
-[license: MIT](https://github.com/everythinginitsrightplace/crossover/blob/main/LICENSE)
+[license: MIT](https://github.com/tg-tjmitchell/crossover/blob/main/LICENSE)
