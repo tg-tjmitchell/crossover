@@ -18,7 +18,7 @@ if git clone "$REPO_URL" crossover_patch; then
     cd crossover_patch || exit 1
     # try to build (because who doesnt trust open source right?)
     echo "building hook.dylib because this contains the logic"
-    if clang -dynamiclib -framework Foundation -framework AppKit -o hook.dylib hook.m; then
+    if clang -arch x86_64 -dynamiclib -framework Foundation -framework AppKit -o hook.dylib hook.m; then
         echo "Build successful."
     else
         echo "either somethings gone wrong or you dont have clang installed, so so we're gonna download it from the gh directly"
